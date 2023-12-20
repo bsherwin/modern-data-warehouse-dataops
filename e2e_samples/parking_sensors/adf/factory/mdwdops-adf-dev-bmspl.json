@@ -1,0 +1,9 @@
+{
+	"name": "mdwdops-adf-dev-bmspl",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b604fa87-033e-409c-bd3d-c926fa3033d7",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
