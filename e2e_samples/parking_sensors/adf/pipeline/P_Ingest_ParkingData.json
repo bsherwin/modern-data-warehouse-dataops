@@ -30,7 +30,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "",
+					"notebookPath": "/releases/dev/02_standardize",
 					"libraries": [
 						{
 							"pypi": {
@@ -193,6 +193,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"notebookPath": "/releases/dev/03_transform",
 					"libraries": [
 						{
 							"pypi": {
