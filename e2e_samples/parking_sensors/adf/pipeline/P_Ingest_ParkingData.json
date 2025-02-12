@@ -31,6 +31,16 @@
 				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": "/releases/dev/02_standardize",
+					"baseParameters": {
+						"infilefolder": {
+							"value": "@variables('infilefolder')",
+							"type": "Expression"
+						},
+						"loadid": {
+							"value": "@pipeline().RunId",
+							"type": "Expression"
+						}
+					},
 					"libraries": [
 						{
 							"pypi": {
@@ -194,6 +204,12 @@
 				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": "/releases/dev/03_transform",
+					"baseParameters": {
+						"loadid": {
+							"value": "@pipeline().RunId",
+							"type": "Expression"
+						}
+					},
 					"libraries": [
 						{
 							"pypi": {
@@ -251,7 +267,7 @@
 			}
 		},
 		"annotations": [],
-		"lastPublishTime": "2025-01-16T18:20:44Z"
+		"lastPublishTime": "2025-02-12T15:27:04Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }

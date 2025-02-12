@@ -1,0 +1,9 @@
+{
+	"name": "mdwdops-adf-dev-brian4",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "43d3ba26-29db-4b81-933f-5577518f353c",
+		"tenantId": "e2a315a1-b592-4c7e-b921-066f5d6ef97d"
+	}
+}
